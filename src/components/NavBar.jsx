@@ -37,9 +37,9 @@ export const NavBar = () => {
   ];
 
   return (
-  <nav className="text-white md:bg-black" ref={node}>
+  <nav className="text-white md:bg-[#21b33c]" ref={node}>
     <div className="container mx-auto px-4 flex justify-center ">
-      <div className="relative flex justify-between items-center py-4">
+      <div className="relative flex justify-between items-center py-3">
         {/* Botón del menú hamburguesa */}
         <div className="fixed top-0 right-0 m-4 z-50 md:hidden">
           <button
@@ -53,13 +53,13 @@ export const NavBar = () => {
         </div>
 
         {/* Menú para pantallas grandes */}
-        <ul className="hidden md:flex md:justify-center  md:space-x-8 md:bg-transparent md:shadow-none text-green-700">
+        <ul className="hidden md:flex md:justify-center md:space-x-8 md:bg-transparent md:shadow-none text-green-950">
           {navItems.map((item) => (
             <li key={item.name} className="block md:inline-block">
               <Link
                 to={item.path}
-                className={`block py-2 px-4 hover:bg-green-600 md:hover:bg-transparent md:hover:text-green-200 transition-colors ${
-                  location.pathname === item.path ? 'bg-green-600 md:bg-transparent border-b-2' : ''
+                className={`block  px-4 hover:bg-green-600 md:hover:bg-transparent md:hover:text-green-200 transition-colors ${
+                  location.pathname === item.path ? 'bg-green-600 md:bg-transparent border-b-2 border-white text-white' : ''
                 }`}
               >
                 {item.name}
@@ -72,7 +72,7 @@ export const NavBar = () => {
 
     {/* Menú desplegable para móviles */}
     <div
-      className={`md:hidden fixed top-0 right-0 h-full w-3/4 bg-green-700 z-40 transform transition-transform duration-300 ease-in-out shadow-md ${
+      className={`md:hidden fixed top-0 right-0 h-full w-3/4 bg-[#21b33c] z-40 transform transition-transform duration-300 ease-in-out shadow-md ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
@@ -81,8 +81,8 @@ export const NavBar = () => {
           <li key={item.name} className="block">
             <Link
               to={item.path}
-              className={`block py-2 px-4 hover:bg-green-600 transition-colors text-center ${
-                location.pathname === item.path ? ' text-white border-b-2 ' : 'text-white'
+              className={`block py-2 px-2 hover:bg-[#0e8724fe] transition-colors text-center hover:text-white ${
+                location.pathname === item.path ? ' border-white border-b-2 ' : 'text-white'
               }`}
               onClick={closeMenu}
             >
