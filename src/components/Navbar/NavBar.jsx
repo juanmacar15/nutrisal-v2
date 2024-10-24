@@ -34,7 +34,7 @@ export const NavBar = () => {
     { name: 'Inicio', path: '/' },
     { name: 'Quienes Somos', path: '/quienes-somos' },
     { name: 'Productos', path: '/productos' },
-    { name: 'Contactos', path: '/contacto' },
+    { name: 'Contacto', path: '/contacto' },
   ];
 
   return (

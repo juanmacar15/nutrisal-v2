@@ -11,14 +11,8 @@ export const Home = () => {
       <div className='text-gray-700 container px-5 text-center mx-auto'>
         <p className='leading-relaxed text-[15px] md:text-lg font-normal '>Nutrisal es tu fuente confiable de productos nutricionales para ganado. Nos dedicamos a proporcionar soluciones de alta calidad para la salud y el bienestar animal, mejorando la productividad y rentabilidad de tu negocio ganadero.</p>
       </div>
-
-
-      {/* separador */}
-    
+      <button class="flex mx-auto mt-16 text-white bg-[#00c022] border-0 py-2 px-8 focus:outline-none hover:bg-[#289e2a] rounded text-lg hover:scale-110 duration-100"><a href={`https://wa.me/573217580062/?text=Buenas,%20tienes%20sal%20mineralizada%20disponible?`} target='_blank'>Adquirir producto</a></button>
       <hr class="my-10 mx-[50px] md:mx-[110px] h-1 md:h-2 border-t-0 rounded-xl bg-[#b2beb4] " />
-
-      {/* siguiente modulo */}
-
       <h1 className='title-font text-center py-[10px] md:py-[20px] text-[18px] md:text-3xl text-xl mb-4 font-medium text-[#00c022]'>¿Por Qué Elejirnos?</h1>
       <section classNameName="text-gray-600 body-font p">
         <div classNameName="container px-5 py-24 mx-auto">
