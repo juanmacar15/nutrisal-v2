@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer'
 export const Home = () => {
   return (
     <div>
-      <h1 className='title-font text-center py-[10px] md:py-[20px] text-[18px] md:text-3xl  mb-4 font-medium text-[#00c022]'>Bienvenidos a Nutrisal</h1>
+      <h1 className='title-font text-center py-[20px] md:py-[30px] text-[18px] md:text-3xl  mb-4 font-medium text-[#00c022]'>Bienvenidos a Nutrisal</h1>
       <div className='text-gray-700 container px-5 text-center mx-auto'>
         <p className='leading-relaxed text-[15px] md:text-lg font-normal '>Nutrisal es tu fuente confiable de productos nutricionales para ganado. Nos dedicamos a proporcionar soluciones de alta calidad para la salud y el bienestar animal, mejorando la productividad y rentabilidad de tu negocio ganadero.</p>
       </div>

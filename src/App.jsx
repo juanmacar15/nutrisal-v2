@@ -4,7 +4,7 @@ import { Home } from "./pages/Home"
 import { QuienesSomos } from "./pages/QuienesSomos"
 import { Productos } from "./pages/Productos"
 import { Contacto } from "./pages/Contacto"
-import { NavBar } from "./components/NavBar"
+import { NavBar } from "./components/Navbar/NavBar"
 
 function App() {
 

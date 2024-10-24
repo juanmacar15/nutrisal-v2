@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import './Navbar.css'
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,7 @@ export const NavBar = () => {
   ];
 
   return (
-  <nav className="text-white md:bg-[#21b33c]" ref={node}>
+  <nav className="navbar text-white md:bg-[#21b33c]" ref={node}>
     <div className="container mx-auto px-4 flex justify-center ">
       <div className="relative flex justify-between items-center py-3">
         {/* Botón del menú hamburguesa */}
