@@ -1,6 +1,5 @@
 import React from 'react'
 import { Footer } from '../components/Footer'
-import una from '../images/quienes-somos.jpg'
 import { products } from '../products'
 
 
@@ -9,7 +8,7 @@ export const Productos = () => {
 
   return (
     <>
-      <section className="bg-gray-50 antialiased ">
+      <section className="">
         <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
           <h1 className='title-font text-center py-[20px] md:py-[30px] text-[18px] md:text-3xl  font-medium text-[#00c022]'>Nuestros productos</h1>
           <div className="mb-4 grid  gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
@@ -43,9 +42,9 @@ export const Productos = () => {
                         Comprar
                       </a>
                     </button>
-                    <button className="inline-flex items-center rounded-lg  text-white bg-primary-700 px-5 py-2.5 text-sm font-medium bg-[#21b33c] hover:bg-[#289e2a] ">
+                    {/* <button className="inline-flex items-center rounded-lg  text-white bg-primary-700 px-5 py-2.5 text-sm font-medium bg-[#21b33c] hover:bg-[#289e2a] ">
                       PDF
-                    </button>
+                    </button> */}
                     </div>
                   </div>
                 </div>

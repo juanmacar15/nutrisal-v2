@@ -10,13 +10,12 @@ export const Contacto = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Información de Contacto</h2>
           <p className="   mb-2">
-            <strong>Dirección:</strong> Av. Ganadería 123, Ciudad Agrícola, País
-          </p>
+            <strong>Dirección:</strong>Calle 9 cr 17</p>
           <p className="   mb-2">
             <strong>Teléfono:</strong> +57 3217580062
           </p>
           <p className="   mb-2">
-            <strong>Email:</strong> info@nutrisal.com
+            <strong>Email:</strong> Nutrisal2024@gmail.com
           </p>
         </section>
         <section className="mb-8">
